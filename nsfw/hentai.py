@@ -8,11 +8,11 @@ import contextlib
 from . import constants as sub
 from .core import Core
 
-_ = Translator("Nsfw", __file__)
+_ = Translator("hentai", __file__)
 
 
 @cog_i18n(_)
-class Nsfw(Core):
+class hentai(Core):
     """
     Send random NSFW images from random subreddits
 
